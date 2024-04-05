@@ -118,6 +118,9 @@ Error Handling:
 The API may return error responses under certain conditions:
 
 Daily Limit Exceeded: If the daily request limit is exceeded, the API will return an error response with a status code of 429.
+
 Per Minute Limit Exceeded: If the per minute request limit is exceeded, the API will return an error response with a status code of 429.
+
 Invalid Pincode: If the provided pincode parameter is invalid or not found, the API will return an error response with a status code of 404.
+
 Internal Server Error: If an internal server error occurs, the API will return an error response with a status code of 500.
